@@ -1,0 +1,120 @@
+.search-box {
+  background: #f6f6f6;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.container-search {
+    width: 95%;
+    margin: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+
+    input.search {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        background: none;
+        border: none;
+        font-size: 10pt;
+        float: left;
+        color: #262626;
+        padding-left: 45px;
+        
+        &.error {
+          border: 1px solid #FF0000;
+          border-radius: 20px;
+        }
+
+        &::-webkit-input-placeholder {
+          color: #65737e;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: #65737e;  
+        }
+        &::-moz-placeholder {  /* Firefox 19+ */
+            color: #65737e;  
+        }
+        &:-ms-input-placeholder {  
+            color: #65737e;  
+        }
+        &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0px 1000px #f6f6f6 inset;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+
+        &:focus {
+            outline:none; 
+        }
+        &:active{
+            outline:none; 
+        }
+      }
+
+      .icon{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-left: 17px;
+        margin-top: 17px;
+        z-index: 1;
+        color: #4f5b66;
+       
+         -webkit-transition: all .55s ease;
+        -moz-transition: all .55s ease;
+        -ms-transition: all .55s ease;
+        -o-transition: all .55s ease;
+        transition: all .55s ease;
+
+        &.error {
+          color: #FF0000;
+        }
+      }
+      
+      &:hover .icon{
+        margin-top: 16px;
+        color: #93a2ad;
+       
+        -webkit-transform:scale(1.5); /* Safari and Chrome */
+        -moz-transform:scale(1.5); /* Firefox */
+        -ms-transform:scale(1.5); /* IE 9 */
+        -o-transform:scale(1.5); /* Opera */
+         transform:scale(1.5);
+      }    
+}
+
+.form-error {
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #FF0000;
+  font-size: 12px; 
+  margin-bottom: 10px   
+}
+
+.btn {
+  border: 1px solid #2478ea;
+  color: #2478ea;
+  background-color: white;
+  padding: 8px 28px;
+  width: 95%;
+  font-size: inherit;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+

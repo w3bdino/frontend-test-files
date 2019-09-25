@@ -1,0 +1,103 @@
+.jobitem-container {
+    margin: 20px 20px 5px 20px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.col {
+  display: table;
+  width: 100%;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+.col-wrap {
+  display: block;
+  margin-bottom: 5px;
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+.col-wrap-margintop {
+  margin-top: 10px;
+}
+
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+.job_title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 5px 10px 0;
+  box-sizing: border-box;
+}
+
+.salary_range {
+  text-align: right;
+  font-size: 14px;
+}
+
+.company_name {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+  height: 56px;
+}
+
+.jobdetails {
+  font-size: 14px;
+  color: #5e5d5d;
+  display: inline;
+}
