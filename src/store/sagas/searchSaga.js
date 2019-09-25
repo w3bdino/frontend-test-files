@@ -1,7 +1,7 @@
 import { takeLatest, call, put, fork, all } from "redux-saga/effects";
 
 // watcher saga: watches for actions dispatched to the store, starts worker saga
-export default function* gameSaga() {
+export default function* searchSaga() {
     yield takeLatest("SEARCH_JOB_REQUEST", searchJobRequest);
     yield takeLatest("PAGINATION_CHANGE_REQUEST", paginationRequest);
 }
